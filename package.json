@@ -30,8 +30,15 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mjzac/My-Awesome-Project.git"
+    "url": "git://github.com/mjzac/sails-testing-eg.git"
   },
   "author": "mjzac",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "assert": "^1.1.2",
+    "sinon": "^1.10.3",
+    "istanbul": "^0.3.0",
+    "grunt-mocha-istanbul": "^2.0.0"
+  }
 }
